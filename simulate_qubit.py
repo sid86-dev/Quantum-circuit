@@ -9,7 +9,7 @@ circuit.append([cirq.measure(q0), cirq.measure(q1)])
 
 sim = cirq.Simulator()
 
-results = sim.run(circuit, repetitions=10)
+results = sim.run(circuit, repetitions=50)
 
 print(results)
 
